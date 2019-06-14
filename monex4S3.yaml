@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: >
+  Cloudformation template for a monitoring exercise on Edrans onboarding.
+
+Metadata:
+  Instances:
+    Description: "S3 bucket for testing templates into Cloudformation"
+
+Resources:
+  MyS3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: 'monex4-s3-anitalmada'

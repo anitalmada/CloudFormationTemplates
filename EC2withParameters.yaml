@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: >
+  Cloudformation template for a monitoring exercise on Edrans onboarding.
+
+Metadata:
+  Instances:
+    Description: "EC2 instance bucket for testing templates into Cloudformation"
+Parameters: 
+  InstanceType:
+    Type: String
+  ImageId: 
+    Type: String
+  AvailabilityZone: 
+    Type: String
+
+Resources:
+  MyEC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: !Ref InstanceType
+      AvailabilityZone: !Ref AvailabilityZone
+      ImageId: !Ref ImageId
