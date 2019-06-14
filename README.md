@@ -10,5 +10,5 @@ The full stack includes:
 - An EC2 instance using outputs from the main template
 - An S3 bucket using basic nested templates
 
-_I'd like to thank @kennyk65 for [this awesome article](https://www.infoq.com/articles/aws-vpc-cloudformation/) which made my life easier XD_
+_I'd like to thank [@kennyk65](https://github.com/kennyk65) for [this awesome article](https://www.infoq.com/articles/aws-vpc-cloudformation/) which made my life easier XD_
 
